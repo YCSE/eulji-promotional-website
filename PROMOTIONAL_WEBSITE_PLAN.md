@@ -31,7 +31,7 @@
 ### 1.3 기술 스택
 - **HTML5** + **CSS3** (순수 정적 사이트)
 - **호스팅**: Firebase Hosting 또는 GitHub Pages
-- **도메인**: eulji-fitness.com 또는 eulji.fit
+- **도메인**: euljiai.com 또는 eulji.fit
 
 ---
 
@@ -216,7 +216,7 @@ body { font-size: 16px; font-weight: 400; line-height: 1.6; letter-spacing: -0.4
 | 구독 비용은 얼마인가요? | 월 9,900원입니다. 언제든 해지할 수 있습니다. |
 | 무료 체험이 있나요? | 무료 사용자는 하루 5회 메시지 제한이 있으며, 구독 시 무제한으로 이용 가능합니다. |
 | 환불은 어떻게 하나요? | 환불은 각 앱 스토어 정책에 따릅니다. (App Store / Google Play) |
-| 어떤 기기에서 사용할 수 있나요? | iOS 15.0 이상, Android API 21 이상의 스마트폰에서 사용 가능합니다. |
+| 어떤 기기에서 사용할 수 있나요? | iOS 15.0 이상, Android 7.0 이상의 스마트폰에서 사용 가능합니다. |
 
 ---
 
@@ -243,7 +243,7 @@ body { font-size: 16px; font-weight: 400; line-height: 1.6; letter-spacing: -0.4
 │                                                         │
 │  홈  ·  개인정보처리방침  ·  이용약관                     │
 │                                                         │
-│  문의: support@eulji-fitness.com                        │
+│  문의: eulji_support@naver.com                        │
 │                                                         │
 │  © 2025 을지 피트니스. All rights reserved.              │
 │                                                         │
@@ -303,7 +303,7 @@ body { font-size: 16px; font-weight: 400; line-height: 1.6; letter-spacing: -0.4
 - 중요 변경사항은 최소 7일 전 사전 고지
 
 **9. 연락처**
-- 개인정보 관련 문의: privacy@eulji-fitness.com
+- 개인정보 관련 문의: eulji_support@naver.com
 
 ---
 
@@ -380,7 +380,7 @@ body { font-size: 16px; font-weight: 400; line-height: 1.6; letter-spacing: -0.4
 - 변경에 동의하지 않을 경우 서비스 해지 가능
 
 **13. 연락처**
-- 이용약관 문의: support@eulji-fitness.com
+- 이용약관 문의: eulji_support@naver.com
 
 ---
 
@@ -467,8 +467,8 @@ body { font-family: var(--font-family); color: var(--color-primary); }
 <!-- Open Graph -->
 <meta property="og:title" content="을지 피트니스 - 당신만의 AI 피트니스 코치">
 <meta property="og:description" content="운동, 식단, 멘탈까지. 언제 어디서나 전문 코칭을 받으세요.">
-<meta property="og:image" content="https://eulji-fitness.com/images/og-image.png">
-<meta property="og:url" content="https://eulji-fitness.com">
+<meta property="og:image" content="https://euljiai.com/images/og-image.png">
+<meta property="og:url" content="https://euljiai.com">
 <meta property="og:type" content="website">
 
 <!-- Twitter -->
@@ -503,21 +503,8 @@ body { font-family: var(--font-family); color: var(--color-primary); }
 
 ---
 
-## 7. 호스팅 (Firebase Hosting)
+## 7. 호스팅 (Github Pages)
 
-### 배포 명령어
-```bash
-# firebase.json 설정
-{
-  "hosting": {
-    "public": "website",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-  }
-}
-
-# 배포
-firebase deploy --only hosting
-```
 
 ### 디렉토리 구조
 ```
@@ -537,35 +524,3 @@ eulji_fitness/
 
 ---
 
-## 8. 체크리스트
-
-### 필수
-- [ ] 도메인 구매 (eulji-fitness.com)
-- [ ] SSL (Firebase Hosting 자동 제공)
-- [ ] Privacy Policy 법률 검토
-- [ ] Terms and Conditions 법률 검토
-- [ ] App Store / Google Play 링크 연결
-- [ ] 반응형 테스트
-- [ ] 이미지 최적화 (WebP)
-
-### 권장
-- [ ] Google Analytics 연동
-- [ ] Lighthouse 성능 테스트 (90+)
-
----
-
-## 9. 연락처 정보
-
-### 도메인 제안
-1. eulji-fitness.com
-2. eulji.fit
-3. euljifitness.com
-
-### 이메일
-- 일반 문의: support@eulji-fitness.com
-- 개인정보: privacy@eulji-fitness.com
-
----
-
-*작성: Claude Code*
-*최종 업데이트: 2025-11-27*
